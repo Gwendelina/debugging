@@ -77,5 +77,4 @@ def display_interface():
         elif choice == 4:
             choice = ask_user("Saisir un ciffre à MULTIPLIER ou clicker sur '=' ")
             result = division(choice)
-        #return print(f"Le resultat est ==> {result}") 
         return print(f"Le resultat est ==> {result}") 
